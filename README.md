@@ -1,154 +1,126 @@
 # Redteam 100 Projects Challenge
 
-I am taking on the **Red Team 100 Projects Challenge** to improve my understanding and skills in offensive security, penetration testing, and red teaming.  
-
-The original list of projects comes from [kurogai/100-redteam-projects](https://github.com/kurogai/100-redteam-projects).  
-My goal is to **complete all 100 projects** by building and documenting them myself.
+I am doing the **Red Team 100 Projects Challenge** using the list from [kurogai/100-redteam-projects](https://github.com/kurogai/100-redteam-projects).  
+I will work level by level, and mark each project when I complete it.
 
 ---
 
-## 🎯 Objective
-- Strengthen my red teaming knowledge through hands-on projects.
-- Build a solid foundation in offensive security techniques.
-- Create a public record of my progress and completed projects.
+## Levels & Projects
+
+| Level | # | Project | Completed |
+|---|---|---------|-----------|
+| **Level 1 – Basic** | 0 | TCP or UDP server just to receive messages | No |
+|  | 1 | TCP chat server | No |
+|  | 2 | UDP chat server | No |
+|  | 3 | Multi-threaded UDP or TCP chat server | No |
+|  | 4 | Server for file transfers | No |
+|  | 5 | Caesar Cipher tool | No |
+|  | 6 | TCP chat server → The messages should be encoded with Caesar Cipher | No |
+|  | 7 | ROT13 Cipher | No |
+|  | 8 | UDP Chat server → The messages should be encoded with ROT13 Cipher | No |
+|  | 9 | Remote command execution | No |
+|  | 10 | Recreate the Netcat tool | No |
+| **Level 2 – Essential** | 11 | Simple port scanner | No |
+|  | 12 | Port scanner with OS fingerprint using TTL (Time To Live) | No |
+|  | 13 | Port scanner with port footprint (HTTP? DNS? FTP? IRC?) | No |
+|  | 14 | Simple Web Directory brute-forcer (Threaded) | No |
+|  | 15 | Recursive Web Directory brute-forcer (Threaded peer recursion) | No |
+|  | 16 | Web Login bruteforce tool | No |
+|  | 17 | FTP Login bruteforce tool | No |
+|  | 18 | SSH Login bruteforce tool | No |
+|  | 19 | FTP User footprint | No |
+|  | 20 | MYSQL User footprint | No |
+|  | 21 | Simple Google Bot for web scan | No |
+|  | 22 | Auto website comment bot | No |
+|  | 23 | Auto website message bot | No |
+|  | 24 | Web-scrapping using Regex | No |
+|  | 25 | Bot to collect information about someone using Google / Bing / Yahoo! | No |
+|  | 26 | Simple SQLi tester | No |
+|  | 27 | Simple XSS tester | No |
+|  | 28 | Simple Wordpress brute-forcer | No |
+|  | 29 | SQLi database retriever | No |
+|  | 30 | Spam creator | No |
+| **Level 3 – Advanced Network Attacks** | 31 | Payload for reverse shell | No |
+|  | 32 | Payload to capture screenshots | No |
+|  | 33 | Implement a Botnet | No |
+|  | 34 | Passive web scanner | No |
+|  | 35 | ARP poisoning tool | No |
+|  | 36 | Application that creates random shortcuts on screen | No |
+|  | 37 | Application to encrypt a file | No |
+|  | 38 | Develop a Ransomware application | No |
+|  | 39 | Spam Email sender | No |
+|  | 40 | HTTP server for phishing | No |
+|  | 41 | Honeypot creator | No |
+|  | 42 | Application that connects to the Tor Network | No |
+|  | 43 | IRC Server | No |
+|  | 44 | Packet Capture tool | No |
+| **Level 4 – Data analysis, payloads and more networking** | 45 | Packet Data analysis | No |
+|  | 46 | Packet image analysis with OpenCV | No |
+|  | 47 | Develop a hexdump tool | No |
+|  | 48 | Payload that moves the mouse cursor | No |
+|  | 49 | Vigenère Cipher | No |
+|  | 50 | Payload that starts automatically using Windows Regedit | No |
+|  | 51 | Payload that starts as a daemon | No |
+|  | 52 | Payload that retrieves browser information | No |
+|  | 53 | Link generator | No |
+|  | 54 | ASCII Name generator [ just for fun :) ] | No |
+|  | 55 | Full chat server with private messages, file and image transfer | No |
+|  | 56 | Simple firewall | No |
+|  | 57 | Gateway | No |
+|  | 58 | PowerShell payload generator | No |
+|  | 59 | Bash payload generator | No |
+|  | 60 | Subdomain enumerator | No |
+|  | 61 | DNS Enumerator | No |
+|  | 62 | Your own interpreter | No |
+|  | 63 | Develop a Worm | No |
+|  | 64 | Server for DDOS | No |
+|  | 65 | Implement an IP Tracker | No |
+|  | 66 | BurpSuite extender | No |
+|  | 67 | Develop a Trojan | No |
+|  | 68 | Man In The Browser tool (kind of) | No |
+|  | 69 | Process monitor (Windows and Linux) | No |
+|  | 70 | Windows token privilege escalation tool | No |
+| **Level 5 – Cryptography, Reverse Engineering, Post-Exploitation** | 71 | Develop a code injection tool | No |
+|  | 72 | Develop a Worm with auto replication over email | No |
+|  | 73 | Simple Disassembler | No |
+|  | 74 | Server for DDoS with multi-staged operations and multi-threaded handling of clients | No |
+|  | 75 | Password hash cracker | No |
+|  | 76 | Direct code injection exploit | No |
+|  | 77 | Android daemon payload | No |
+|  | 78 | Browser exploitation tool | No |
+|  | 79 | Simple tool for Reverse Engineering | No |
+|  | 80 | Script for OS enumeration (after shell) | No |
+|  | 81 | RSA Payload generator | No |
+|  | 82 | Handshake capture | No |
+|  | 83 | Wifi monitor | No |
+|  | 84 | Buffer Overflow exploit | No |
+|  | 85 | Stack Overflow exploit | No |
+|  | 86 | Banner exploit | No |
+|  | 87 | ISS Exploit | No |
+|  | 88 | Wifi de-authentication attack (DoS) tool | No |
+|  | 89 | Badchar detector | No |
+|  | 90 | Firewall detector | No |
+|  | 91 | Exploitation Framework | No |
+|  | 92 | Botnet with SSH C&C and automatic server backup to prevent loss of control | No |
+|  | 93 | Windows enumeration tool | No |
+|  | 94 | Application information gathering (after shell) | No |
+|  | 95 | Recreate TCPDUMP | No |
+|  | 96 | Bluetooth exploit | No |
+|  | 97 | Windows Blue Screen Exploit | No |
+|  | 98 | Encoded exploit | No |
+|  | 99 | Antivirus evasion application | No |
+|  | 100 | Your own metasploit module | No |
 
 ---
 
-## 📊 Progress Tracking
+## ✅ How I’ll Use This
 
-I will track my progress in the table below.  
-- **Yes** → Completed  
-- **No** → Not Completed  
-
-| # | Project Name | Completed |
-|---|--------------|-----------|
-| 1 | Build a Keylogger | No |
-| 2 | Create a Simple Port Scanner | No |
-| 3 | Develop a Custom C2 Framework | No |
-| 4 | Build a Password Cracker | No |
-| 5 | Create a Reverse Shell | No |
-| 6 | Build a RAT (Remote Access Trojan) | No |
-| 7 | Implement a Custom Encoder/Decoder | No |
-| 8 | Develop a Steganography Tool | No |
-| 9 | Create a Network Sniffer | No |
-| 10 | Build a Wi-Fi Deauthentication Tool | No |
-| 11 | Create a Custom Exploit for Buffer Overflow | No |
-| 12 | Build a Persistence Mechanism | No |
-| 13 | Develop a Ransomware Simulator | No |
-| 14 | Build a Key Exchange Algorithm | No |
-| 15 | Create a Hash Cracker | No |
-| 16 | Develop a Malware Analysis Sandbox | No |
-| 17 | Build a Custom Encryption Tool | No |
-| 18 | Create a Web Application Vulnerability Scanner | No |
-| 19 | Build a Brute Force Attack Tool | No |
-| 20 | Develop a MITM Proxy Tool | No |
-| 21 | Create a Fileless Malware | No |
-| 22 | Build a Packet Injection Tool | No |
-| 23 | Develop a Rootkit | No |
-| 24 | Build a Phishing Toolkit | No |
-| 25 | Create a Custom Exploit for Format String Bug | No |
-| 26 | Build a Password Spraying Tool | No |
-| 27 | Create a DLL Injector | No |
-| 28 | Build a Persistence via Registry Tool | No |
-| 29 | Create a Social Engineering Toolkit | No |
-| 30 | Build a Binary Obfuscator | No |
-| 31 | Develop a Privilege Escalation Tool | No |
-| 32 | Build a Command and Control Botnet | No |
-| 33 | Create a Reverse Engineering CrackMe | No |
-| 34 | Build a Custom WebShell | No |
-| 35 | Develop a USB Rubber Ducky Script | No |
-| 36 | Build a Honeytoken System | No |
-| 37 | Create a DNS Tunneling Tool | No |
-| 38 | Build a Payload Generator | No |
-| 39 | Create a Custom Key Exchange Trojan | No |
-| 40 | Develop a Crypto Ransomware Simulation | No |
-| 41 | Build a Log Poisoning Exploit | No |
-| 42 | Create a Lateral Movement Simulation Tool | No |
-| 43 | Build a Session Hijacking Tool | No |
-| 44 | Develop a Persistence via Scheduled Task | No |
-| 45 | Create a Firewall Evasion Script | No |
-| 46 | Build a Bypass UAC Tool | No |
-| 47 | Develop a Persistence via Service | No |
-| 48 | Build a File Exfiltration Tool | No |
-| 49 | Create a WebSocket MITM Tool | No |
-| 50 | Build a Network Reconnaissance Tool | No |
-| 51 | Create a Linux Privilege Escalation Script | No |
-| 52 | Develop a Cloud Attack Simulation | No |
-| 53 | Build a IoT Hacking Simulation Tool | No |
-| 54 | Create a Bluetooth Sniffer | No |
-| 55 | Build a Mobile Penetration Testing Tool | No |
-| 56 | Create a Password Manager Exploit | No |
-| 57 | Develop a Custom RAT for Android | No |
-| 58 | Build a Credential Dumping Tool | No |
-| 59 | Create a Custom Web Exploitation Framework | No |
-| 60 | Build a NTLM Relay Attack Tool | No |
-| 61 | Develop a Persistence via WMI Tool | No |
-| 62 | Build a Red Team Automation Script | No |
-| 63 | Create a Custom Exfiltration Over HTTP Tool | No |
-| 64 | Build a Custom SMB Exploit | No |
-| 65 | Develop a Persistence via Startup Folder | No |
-| 66 | Build a Obfuscated PowerShell Payload | No |
-| 67 | Create a Evasion Tool for Antivirus | No |
-| 68 | Build a Data Exfiltration via DNS Tool | No |
-| 69 | Create a Custom DDoS Attack Script | No |
-| 70 | Build a Red Team Engagement Tracker | No |
-| 71 | Create a Custom Web Application Firewall Bypass | No |
-| 72 | Build a Command Obfuscation Tool | No |
-| 73 | Develop a Custom Browser Exploit | No |
-| 74 | Build a Linux Rootkit | No |
-| 75 | Create a ROP Chain Exploit | No |
-| 76 | Build a Side Channel Attack Simulator | No |
-| 77 | Develop a Custom RAT for Linux | No |
-| 78 | Build a Post-Exploitation Tool | No |
-| 79 | Create a Exploit for Use After Free Bug | No |
-| 80 | Build a Red Team Report Generator | No |
-| 81 | Create a Custom SQL Injection Exploit | No |
-| 82 | Build a Recon Automation Tool | No |
-| 83 | Create a Persistence via Binary Replacement | No |
-| 84 | Build a Custom XSS Payload Generator | No |
-| 85 | Create a Web Exploitation Automation Script | No |
-| 86 | Build a Red Team Project Management Tool | No |
-| 87 | Develop a Malware Command Obfuscation Tool | No |
-| 88 | Build a Supply Chain Attack Simulation | No |
-| 89 | Create a Custom Vulnerability Scanner | No |
-| 90 | Build a Custom Exploit for Race Condition | No |
-| 91 | Develop a Ransomware Evasion Tool | No |
-| 92 | Build a Custom Reverse Engineering Toolkit | No |
-| 93 | Create a Custom RAT for MacOS | No |
-| 94 | Build a Custom Recon Web Dashboard | No |
-| 95 | Create a Payload for Cloud Exploitation | No |
-| 96 | Build a Custom Attack Chain Automation Tool | No |
-| 97 | Develop a Hardware Hacking Simulator | No |
-| 98 | Build a Custom Exploit for Memory Corruption | No |
-| 99 | Create a Red Team Infrastructure Automation Tool | No |
-| 100 | Build a Final Red Team Simulation Project | No |
+- I’ll start from **Level 1** and complete all projects in that level before moving to the next (if possible).
+- I’ll mark **Yes** in the “Completed” column when a project is done.
+- Each project will have its folder / source / documentation.
 
 ---
 
-## 🗂 Project Structure
-```
-Redteam_100_projects_challenge/
-│
-├── Project_01_Keylogger/
-│   ├── README.md
-│   ├── src/
-│   └── notes.md
-│
-├── Project_02_PortScanner/
-│   ├── README.md
-│   ├── src/
-│   └── notes.md
-│
-└── ... (more projects)
-```
+## ⚠️ Disclaimer
 
-Each project will have:
-- **README.md** → Explains the project and approach.  
-- **src/** → Source code files.  
-- **notes.md** → Research notes, learnings, and documentation.
-
----
-
-## 📝 Notes
-- This repository is for **educational purposes only**.
-- Do **NOT** use these tools or scripts for illegal activities.
+This is for learning and research. I will **not** use these projects for illegal or unethical activities.
