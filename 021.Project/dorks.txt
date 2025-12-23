@@ -1,0 +1,6 @@
+site:{target} admin
+site:{target} login
+site:{target} intitle:index of
+site:{target} filetype:sql
+site:{target} filetype:env
+site:{target} filetype:bak
