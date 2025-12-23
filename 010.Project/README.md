@@ -107,7 +107,7 @@ Example output:
 
     id
     uid=1000(himanshu) gid=1000(himanshu)
-```bash
+```
 ---
 
 ## Address Already in Use Error
